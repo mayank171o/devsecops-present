@@ -19,6 +19,8 @@
     <maven>3.0.3</maven>
   </prerequisites>
   
+   <build>
+    <plugins>
   <plugin>
     <groupId>org.owasp</groupId>
     <artifactId>dependency-check-maven</artifactId>
@@ -31,5 +33,7 @@
         </execution>
     </executions>
 </plugin>
+ </build>
+ </plugins>
 
 </project>
